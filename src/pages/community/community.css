@@ -1,0 +1,50 @@
+.homepage-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+}
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: calc(50px + 2vh);
+}
+
+.post {
+    width: 40vw;
+    height: 20vh;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-items: center;
+    
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.insert-input {
+    width: 40vw;
+    height: 20vh;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.post *{
+    margin-left: 2vw;
+}
+
+.post-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
