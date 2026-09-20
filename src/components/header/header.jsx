@@ -8,7 +8,7 @@ export default function Header() {
         <> 
             <div className='header-box'>
                 <div className='header-left' style={{marginRight: 'auto'}}>
-                    <h1 style={{margin: 0}}>KkeuJeock</h1>
+                    <h1 style={{margin: 0}}>끄적 인사이드</h1>
                 </div>
                 <div className='header-right' style={{marginLeft: 'auto'}}>
                     <h1 style={{margin: 0}} onClick={() => {navigate('/')}}>홈</h1>
